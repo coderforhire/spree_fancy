@@ -1,7 +1,8 @@
 #subheader {
   @include single-box-shadow(darken($c_green, 10), 0, 0, 15px, 0, true);
   // background: image-url('store/subheader-bg.png') repeat center;
-  background-color: lighten($c_green, 5);
+  //background-color: lighten($c_green, 5);
+  background: image-url('store/picmonkey-collage-brian.jpg') repeat center;
   color: white;
   border-top: 5px solid lighten($c_green, 40);
   border-bottom: 5px solid lighten($c_green, 40);
