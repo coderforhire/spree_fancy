@@ -1,11 +1,8 @@
 #subheader {
-  @include single-box-shadow(darken($c_green, 10), 0, 0, 15px, 0, true);
-  // background: image-url('store/subheader-bg.png') repeat center;
-  //background-color: lighten($c_green, 5);
-  background: image-url('store/picmonkey-collage-brian.jpg') repeat center;
+  background: image-url('store/bg.png') repeat center;
   color: white;
-  border-top: 5px solid lighten($c_green, 40);
-  border-bottom: 5px solid lighten($c_green, 40);
+  border-top: 5px solid #4D180B;
+  border-bottom: 5px solid #4D180B;
   overflow: hidden;
   
   .subheader-wrapper {
@@ -31,7 +28,6 @@
 .slider-pager, .bx-wrapper {
   .bx-pager.bx-default-pager {
     a {
-      background-color: #dedede;
 
       &.active, &:hover {
         background-color: $c_green;
@@ -96,7 +92,7 @@
     position: relative;
     display: block;
     background-color: white;
-    border: 5px solid lighten($c_green, 15);
+    border: 5px solid black;
     padding: 20px;
     overflow: hidden;
 
@@ -155,8 +151,8 @@
 
       button, input[type="number"] {
         background-color: white;
-        color: $c_orange;
-        border-color: darken($c_green, 5);
+        color: black;
+        border-color: black;
         font-size: 16px;
         vertical-align: text-bottom;
 

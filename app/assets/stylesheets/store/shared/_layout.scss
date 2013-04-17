@@ -1,10 +1,11 @@
 body {
-  border-top: 5px solid $c_blue;  
-  padding-top: 10px;
+  border-top: 15px solid #4D180B;  
+  padding-top: 0px;
   line-height: 24px;
 }
 
 .page-wrapper {
+  background-color: #734121;
   float: right;
   width: 100%;
   @include transition-duration(0.2s);
@@ -35,7 +36,7 @@ body {
 }
 
 #latest-products {
-  h3 { color: $c_orange }
+  h3 { color: black }
   hr { border-bottom-color: lighten($c_orange, 40) }
 
   .product-image a { border-color: lighten($c_orange, 40) }
@@ -170,11 +171,9 @@ ul#products li {
 }
 
 footer#footer {
-  @include single-box-shadow(darken($c_blue, 10), 0, 0, 15px, 0, true);
-  // background: image-url("store/footer-bg.png") repeat center;
-  background-color: lighten($c_blue, 5);
+  background-color: #735E3D;
   margin-top: 30px;
-  border-top: 5px solid lighten($c_blue, 30);
+  border-top: 5px solid #8A805E;
   padding-top: 30px;
   font-size: 14px;
   line-height: 24px;
