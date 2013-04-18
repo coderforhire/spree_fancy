@@ -10,12 +10,14 @@ textarea {
   border-width: 3px;
   padding: 7px 20px;
   text-transform: uppercase;
+  color: black;
+  border-color: #505050; 
 
 
   &:hover {
-    background-color: $c_green;
-    color: white;
-    border-color: lighten($c_green, 30);  
+    background-color: gray;
+    color: black;
+    border-color: black;  
   }
 }
 
@@ -35,11 +37,11 @@ input[type="password"], input[type="tel"],
 input[type="search"], textarea {
   @include border-radius(8px);
   text-transform: none;
-  color: $body_text_color;
+  color: black;
 
   &:hover {
     background-color: white;  
-    color: $body_text_color;
+    color: black;
   }
 }
 
@@ -50,6 +52,7 @@ fieldset {
 form {
   p, .field {
     padding: 0;  
+    background-color: transparent;
   }   
 }
 
@@ -61,10 +64,10 @@ label.ui-button {
   margin-bottom: 10px;
   font-size: 12px;
   background-image: none;    
-  color: $c_blue;
+  color: black;
 
   &:hover {
-    background-color: $c_blue;
+    background-color: white;
     color: white;
   }
 

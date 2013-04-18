@@ -12,11 +12,11 @@
     font-size: 14px;
 
     &.current, &.current-first, &.current-last {
-      @include single-box-shadow(darken($c_green, 10), 0, 0, 10px, 0);
-      background-color: $c_orange;
-      color: white;
-      border-left: 5px solid lighten($c_orange, 8);
-      border-right: 5px solid lighten($c_orange, 8);
+      @include single-box-shadow(black, 0, 0, 10px, 0);
+      background-color: white;
+      color: black;
+      border-left: 5px solid white;
+      border-right: 5px solid white;
     }    
 
     &.current, &.current-first, &.current-last,
@@ -25,9 +25,9 @@
     }
 
     &.completed-first, &.completed-last, &.completed {
-      background-color: lighten($c_green, 10);  
+      background-color: white;  
       &, a {
-        color: lighten($c_green, 40);
+        color: black;
       }
     }
      
@@ -80,7 +80,7 @@ fieldset {
     font-weight: 600;
     
     &:last-child, &:last-child span {
-      color: $c_orange;
+      color: black;
     }
     &:last-child { 
       &:before {
@@ -106,7 +106,7 @@ fieldset {
 
 #summary-order-total, [data-hook="order_details"] [data-hook="order_item_total"] span,
 #order_total {
-  color: $c_green !important;  
+  color: white  !important;  
   font-weight: 600 !important;
 }
 
