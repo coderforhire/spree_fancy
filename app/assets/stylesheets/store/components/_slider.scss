@@ -150,14 +150,14 @@
       }
 
       button, input[type="number"] {
-        background-color: white;
+        background-color: #8A805E;
         color: black;
         border-color: black;
         font-size: 16px;
         vertical-align: text-bottom;
 
         &:hover {
-          color: darken($c_orange, 5) !important;
+          color: white !important;
         }
 
         i {
